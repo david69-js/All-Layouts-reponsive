@@ -1,0 +1,34 @@
+@import 'colors';
+
+.color1{
+    background:$coffe !important;
+    h1{
+        color: $whiteText;
+        h2{
+            color: $whiteText;
+            p{
+                color: $gray;
+            }
+        }
+    }
+
+    li{
+        
+        a{
+            color: $whiteText !important;
+        }
+    }
+    .home{
+        background: $greenText !important;
+        border-radius: 10px;
+    }
+
+    .nav-link{
+        display: block;
+        padding: 0rem 1rem !important; 
+    }
+    .navbar-nav{
+        margin-right: 60px;
+    }
+}
+

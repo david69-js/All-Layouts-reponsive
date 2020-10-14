@@ -1,0 +1,108 @@
+@import 'colors';
+@import 'mixins';
+/*Circle*/
+.circle{
+    padding: 23%;
+    height: 380px;
+    width: 380px;
+    background:$darkgray;
+    border-radius: 50%;
+    border: 25px solid $gray;
+    margin: auto;
+}
+
+/*general cards*/
+.card{
+    border-radius: 0px;
+}
+
+/*Card*/
+.filling{
+    padding: 17% 24%;
+    background: transparent;
+    border: none;
+    h3{
+        color: $whiteText;
+        font-size: 20px;
+    }
+    p{
+        color: $whiteText;
+    }
+    button{
+        background: $greenText;
+    }
+}
+
+/*Cards*/
+
+    .color2{
+        background: $maroon;
+        margin-bottom: 50px;
+        .color{
+            @include colorBoxs;
+            h3{
+                font-size: 45px;
+            }
+            p{
+                color: red;
+                font-size: 10px;
+            }
+            img{
+                width: 54% !important;
+                margin-left: 20%;
+            }
+        }
+        .cyan{
+            background: $greenText !important;
+        }
+}
+
+.test{
+    background: black;
+    margin-top: -30px;
+    margin-left: 41%;
+    padding: 10px 68px;
+    h4{
+        color:$whiteText;
+    }
+}
+.under-line{
+    margin-top: 60px;
+    border: 2px solid $black;
+}
+
+/*Underline*/
+.barra{
+    margin-top: 60px;
+    border: 2px $black solid;
+}
+
+.box{
+    margin-top: -30px;
+    z-index: 3;
+    font-size: 25px;
+    background: $greenText;
+    display: block;
+    padding: 14px
+}
+
+.boxs{
+    height: 120px;
+    width: 85%;
+    background: $black;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px){
+    .boxs{
+        height: 70px;
+        width: 100px;
+    }
+}
+
+.bg-dark{
+    background: $bg-dark !important;
+}
+button{
+    background: $greenText !important;
+}

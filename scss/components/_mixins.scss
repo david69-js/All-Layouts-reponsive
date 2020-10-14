@@ -1,0 +1,7 @@
+@import 'colors';
+
+@mixin colorBoxs ($color: $whiteText, $media1: 50px, $media2:340px) {
+    background: $color;
+    margin-top: $media1;
+    height: $media2;
+}

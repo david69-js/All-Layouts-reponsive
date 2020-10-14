@@ -1,3 +1,13 @@
+@import 'components/header';
+@import 'components/body';
+@import 'components/footer';
+@import 'components/colors';
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 body{
-    background: red;
+    text-decoration: none !important;
+    font-family: 'Staatliches', cursive;
+    background: $maroon ;
+    overflow-x: hidden;
 }
