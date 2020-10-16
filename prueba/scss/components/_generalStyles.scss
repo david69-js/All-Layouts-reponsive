@@ -1,0 +1,35 @@
+//colors
+$gray: rgb(100, 96, 96);
+$orange: rgb(243, 204, 131);
+$red:rgb(255, 138, 138);
+$blue:rgb(121, 121, 223);
+$titles: rgb(255, 60, 60);
+
+a{
+    padding: 0px;
+    margin: 0px;
+    &:hover{
+        color:rgb(253, 253, 253);
+        @extend .t_slow;
+    }
+}
+.t_slow{
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+h1,h2,h3,h4,h5{
+    color: $titles;
+}
+
+@mixin pad {
+        padding: 100px 0px;
+       
+}
+
+@mixin center {
+    text-align: center;
+    margin: 0px auto;
+}
+

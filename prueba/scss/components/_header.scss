@@ -1,6 +1,120 @@
-.ho{
-    height: 400px;
-    width: 300px;
-    background: blue;
-    border: 2px solid red;
+@import 'generalstyles';
+nav{
+    width: 100%;
+    //background: $red;
+    padding: 10px 0px;
+    position: fixed;
+    //border-bottom: 1px solid $gray;
+    z-index: 100;
+    @extend .t_slow;
+    .logo{
+        img{
+            width: 100%;
+            height: 30px;
+            margin-top: 20px;
+            @extend .t_slow;
+        }
+    }
+    ul{
+        padding: 0px;
+        margin: 20px 0px;
+        text-align: right;
+        @extend .t_slow;
+        
+        li{
+            padding: 0px 10px;
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: bold;
+            .linK-active{
+                a{
+                    color: rgb(247, 247, 247) !important;
+                    &:after{
+                        width: 100%;
+                        background: rgb(255, 255, 255) !important;
+                        @extend .t_slow;
+                    }
+                }
+            }
+            a{
+                text-decoration: none;
+                position: relative;
+                font-size: 16px;
+                color: rgb(228, 228, 228);
+                &:before{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    background-color: transparent;
+                    height: 2px;
+                    @extend .t_slow;
+                }
+                &:after{
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    left: 0px;
+                    width: 0%;
+                    background-color: transparent;
+                    @extend .t_slow;
+                    height: 2px;
+                }
+                &:hover{
+                    text-decoration: none;
+                    &:before{
+                        width: 0%;
+                        background-color: black;
+                        @extend .t_slow;
+                    }
+                    &:after{
+                        width: 100%;
+                        background-color: black;
+                        @extend .t_slow;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slider{
+    backface-visibility: hidden;
+    -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0% );
+    -o-clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0% );
+    -clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0% 100%, 0% 0% );
+}
+
+#slippry{
+    position: relative;
+    h1,h2,h3,h4,h5,p,a,strong,span,buttom,small{
+        position: absolute;
+    }
+    p{
+        width: 600px;
+    }
+    .white_bg{
+        background-color: transparentize(white, 2);
+        padding: 5px 10px;
+    }
+    .left{
+        left: 200px !important;
+    }
+    .right{
+        right: 200px;
+    }
+    .top_250{
+        top: 250 !important;
+    }
+    .top_300{
+        top: 300px !important;
+    }
+    .top_375{
+        top:375;
+    }
+    .top_400{
+        top: 400px;
+    }
+    .top_450{
+        top: 450px;
+    }
 }
