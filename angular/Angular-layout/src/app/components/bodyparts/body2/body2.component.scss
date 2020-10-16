@@ -1,0 +1,10 @@
+@import '../../../mixins/mixin';
+@import '../../../mixins/colors';
+
+.bg2{
+    @include style1($black, $black, 100px, 100px);
+    color: $white;
+}
+.row{
+    text-align: center;
+}

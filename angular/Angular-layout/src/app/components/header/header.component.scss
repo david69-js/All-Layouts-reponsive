@@ -1,0 +1,21 @@
+/*nav*/
+@import '../../mixins/mixin';
+
+.navbar{
+    justify-content: space-between;
+}
+
+/*Background*/
+
+.spacing{
+    padding: 0px 0px !important;
+    background-image: url('../../../assets/img/dos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.bg2{
+   @include style1;
+}

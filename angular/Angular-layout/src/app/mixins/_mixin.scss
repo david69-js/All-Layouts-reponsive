@@ -1,0 +1,14 @@
+@mixin style1($color: transparent, $border:transparent, $top:120px, $bottom: 0px) {
+        background: $color !important;
+        border: $border !important;
+        margin-top:  $top;
+        margin-bottom: $bottom !important;
+}
+
+@mixin style2 ($height:0px){    
+        height: $height;
+}
+
+@mixin style3($top:0px){
+        margin-top: $top;   
+}

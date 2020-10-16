@@ -1,0 +1,43 @@
+@import '../../../mixins/colors';
+@import '../../../mixins/mixin';
+
+.row{
+    margin-left: 0px !important;
+}
+.small{
+    @include style2(200px);
+}
+
+.big{
+    @include style2(410px)
+}
+.top{
+    @include style3(-211px)
+}
+.bottom{
+    margin-bottom: 10px;
+}
+
+.card{
+    border: none;
+    margin-left: -20px;
+}
+
+@media screen and (max-width: 620px){
+    .big{
+        @include style2(200px !important);
+    }
+    .top{
+        @include style3(0px !important);
+    }
+    .bottom{
+        margin-bottom: 10px !important;
+    }  
+    .bottom2{
+        margin-bottom: 10px !important;
+    }
+    .card{
+        border: none !important;
+        margin-left: 0px !important;
+    }
+}
