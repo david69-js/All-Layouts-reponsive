@@ -1,0 +1,44 @@
+.row {
+  margin-left: 0px !important;
+}
+
+.small {
+  height: 200px;
+}
+
+.big {
+  height: 410px;
+}
+
+.top {
+  margin-top: -211px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+}
+
+.card {
+  border: none;
+  margin-left: -20px;
+}
+
+@media screen and (max-width: 620px) {
+  .big {
+    height: 200px !important;
+  }
+  .top {
+    margin-top: 0px !important;
+  }
+  .bottom {
+    margin-bottom: 10px !important;
+  }
+  .bottom2 {
+    margin-bottom: 10px !important;
+  }
+  .card {
+    border: none !important;
+    margin-left: 0px !important;
+  }
+}
+/*# sourceMappingURL=body3.component.css.map */

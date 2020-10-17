@@ -99,7 +99,13 @@
         width: 100px;
     }
 }
+@media screen and(max-width: 420px){
+    .circle{
+        height: 200px;
+        width: 200px;
+    }
 
+}
 .bg-dark{
     background: $bg-dark !important;
 }

@@ -1,0 +1,206 @@
+/*Backgound Colors*/
+/*text colors*/
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+.color1 {
+  background: #006c85 !important;
+}
+
+.color1 h1 {
+  color: #e6e6e6;
+}
+
+.color1 h1 h2 {
+  color: #e6e6e6;
+}
+
+.color1 h1 h2 p {
+  color: #aaaaaa;
+}
+
+.color1 li a {
+  color: #e6e6e6 !important;
+}
+
+.color1 .home {
+  background: #76eb97 !important;
+  border-radius: 10px;
+}
+
+.color1 .nav-link {
+  display: block;
+  padding: 0rem 1rem !important;
+}
+
+.color1 .navbar-nav {
+  margin-right: 60px;
+}
+
+/*Backgound Colors*/
+/*text colors*/
+/*Backgound Colors*/
+/*text colors*/
+/*Circle*/
+.circle {
+  padding: 23%;
+  height: 380px;
+  width: 380px;
+  background: #4b4b4b;
+  border-radius: 50%;
+  border: 25px solid #aaaaaa;
+  margin: auto;
+}
+
+/*general cards*/
+.card {
+  border-radius: 0px;
+}
+
+/*Card*/
+.filling {
+  padding: 17% 24%;
+  background: transparent;
+  border: none;
+}
+
+.filling h3 {
+  color: #e6e6e6;
+  font-size: 20px;
+}
+
+.filling p {
+  color: #e6e6e6;
+}
+
+.filling button {
+  background: #76eb97;
+}
+
+/*Cards*/
+.color2 {
+  background: #198c8c;
+  margin-bottom: 50px;
+}
+
+.color2 .color {
+  background: #e6e6e6;
+  margin-top: 50px;
+  height: 340px;
+}
+
+.color2 .color h3 {
+  font-size: 45px;
+}
+
+.color2 .color p {
+  color: red;
+  font-size: 10px;
+}
+
+.color2 .color img {
+  width: 54% !important;
+  margin-left: 20%;
+}
+
+.color2 .cyan {
+  background: #76eb97 !important;
+}
+
+.test {
+  background: black;
+  margin-top: -30px;
+  margin-left: 41%;
+  padding: 10px 68px;
+}
+
+.test h4 {
+  color: #e6e6e6;
+}
+
+.under-line {
+  margin-top: 60px;
+  border: 2px solid black;
+}
+
+/*Underline*/
+.barra {
+  margin-top: 60px;
+  border: 2px black solid;
+}
+
+.box {
+  margin-top: -30px;
+  z-index: 3;
+  font-size: 25px;
+  background: #76eb97;
+  display: block;
+  padding: 14px;
+}
+
+.boxs {
+  height: 120px;
+  width: 85%;
+  background: black;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .boxs {
+    height: 70px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .circle {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.bg-dark {
+  background: #647d96 !important;
+}
+
+button {
+  background: #76eb97 !important;
+}
+
+/*Backgound Colors*/
+/*text colors*/
+/*Boxs 2*/
+.boxs2 {
+  height: 143px;
+  width: 100%;
+  background: black;
+  margin: auto;
+}
+
+.spacing {
+  margin-left: -20px;
+  margin-bottom: 12px;
+  border: 5px #e6e6e6 solid;
+}
+
+.spacing .margin2 {
+  margin-top: 110px;
+}
+
+.spacing .bg-black {
+  background: black;
+  padding: 0px 0px;
+}
+
+/*Credits*/
+.borderBox {
+  border: none !important;
+}
+
+/*Backgound Colors*/
+/*text colors*/
+body {
+  text-decoration: none !important;
+  font-family: 'Staatliches', cursive;
+  background: #198c8c;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */

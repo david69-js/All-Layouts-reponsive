@@ -1,0 +1,24 @@
+/*nav*/
+.navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*Background*/
+.spacing {
+  padding: 0px 0px !important;
+  background-image: url("../../../assets/img/dos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg2 {
+  background: transparent !important;
+  border: transparent !important;
+  margin-top: 120px;
+  margin-bottom: 0px !important;
+}
+/*# sourceMappingURL=header.component.css.map */
