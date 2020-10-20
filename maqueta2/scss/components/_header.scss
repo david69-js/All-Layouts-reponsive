@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+
+.navbar{
+    h1{
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: bold;
+    }
+}
+.navbar-toggler{
+    font-size: 12px;
+    border-color:transparent !important;
+}
+ul{
+    text-align: center;
+    li{
+      background: transparent;
+      &:hover{
+          transition: 1s;
+          background: rgba($color: #9b9b9b, $alpha: 0.5);
+      }
+    }
+}
+
+a{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(113, 113, 113);
+}
