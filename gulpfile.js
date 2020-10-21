@@ -4,7 +4,7 @@ const gulp = require('gulp'),
     
     gulp.task('sass', ()=>{
         return gulp.src('./scss/style.scss')
-            .pipe(sass({
+            .pipe(sass({  outputStyle: 'expanded'
                  }).on('error', sass.logError))
             .pipe(gulp.dest('./css'))
     });
