@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Pontano+Sans&display=swap');
+$gray: #ececec;
+$black: black;
+
+h3{
+    font-family: 'DM Serif Text', serif;
+}
+.img-fluid{
+    filter: grayscale(60%);
+    width: 100%;
+}
+
+.bg{
+    background: $gray;
+}
+
+.card{
+    border: none;
+    background: transparent;
+    margin: 50px 0px;
+    h2{
+        font-family: 'DM Serif Text', serif;
+    }
+    .text-muted{
+        font-size: 15px;
+        color: $black;
+        font-weight: bold;
+    }
+    .card-text{
+        font-size: 20px;
+        color: $black;
+        font-family: 'Pangolin', cursive;
+        font-family: 'Pontano Sans', sans-serif;
+    }
+    .blockquote{
+        font-family: 'DM Serif Text', serif;    
+    } 
+    .footer{
+        color: $black !important;
+    }
+}
+
+.title{
+    h3{
+        font-size: 40px;
+        margin: 40px 0px;
+    }
+}
+textarea{
+    height: 110px !important;
+}
+.card-img{
+    border-radius: 50%;
+    width: 180px;
+    height: 168px;
+}
+.spacing{
+    padding: 50px 0px;
+}
+.spacing2{
+    padding: 20px 0px;
+}
+
+@mixin spacing ($top:0px, $bottom:0px){
+    padding-top: $top;
+    padding-bottom:$bottom;
+}
+
+.posts{
+    ul{
+        list-style: none;
+        li{
+            
+            float: right;
+        }
+    }
+}
+
+@media screen and (max-width: 630px){
+    .spacing{
+        padding: 30px 0px !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .spacing{
+        padding: 0px 0px !important;
+    }
+}
