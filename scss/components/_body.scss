@@ -2,13 +2,10 @@
 @import 'mixins';
 /*Circle*/
 .circle{
-    padding: 23%;
     height: 380px;
     width: 380px;
-    background:$darkgray;
-    border-radius: 50%;
+    border-radius: 50% !important;
     border: 25px solid $gray;
-    margin: auto;
 }
 
 /*general cards*/
@@ -28,9 +25,6 @@
     p{
         color: $whiteText;
     }
-    button{
-        background: $greenText;
-    }
 }
 
 /*Cards*/
@@ -40,11 +34,15 @@
         margin-bottom: 50px;
         .color{
             @include colorBoxs;
+            .imgResponsive{
+                width: 80% !important;
+                margin-left: 9%;
+            }
             h3{
                 font-size: 45px;
             }
             p{
-                color: red;
+                color: $black;
                 font-size: 10px;
             }
             img{
@@ -93,16 +91,17 @@
     margin: auto;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px){
     .boxs{
         height: 70px;
         width: 100px;
     }
 }
 
+
 .bg-dark{
     background: $bg-dark !important;
 }
-button{
-    background: $greenText !important;
+.btn-primary{
+    background: $greenText !important;   
 }
