@@ -26,6 +26,12 @@ h1 {
   font-size: 15px;
 }
 
+.card {
+  -webkit-box-shadow: 0px 0px 8px #9b9595;
+          box-shadow: 0px 0px 8px #9b9595;
+  border: none;
+}
+
 .card p {
   font-weight: bold;
   font-family: 'Volkhov', serif;
@@ -263,5 +269,13 @@ ul {
 ul li {
   float: right;
   padding: 0px 10px;
+}
+
+a {
+  color: #756b6b;
+}
+
+a:hover {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
