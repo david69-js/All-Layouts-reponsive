@@ -1,0 +1,68 @@
+@import '../../../mixins/mixin\ copy';
+.container-fluid{
+    background: #eaeaea;
+}
+.bg{
+    background: #eaeaea;
+}
+.card{
+    border: none;
+    box-shadow: 1px 1px 12px black;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+.cotenedor{
+  @include container;
+}
+.contenedor figure{
+    cursor: pointer;
+}
+.contenedor figure img{
+  @include image(200px);
+}
+
+.contenedor figure .capa{
+    @include capa(200px);
+
+}
+
+.contenedor figure:hover > .capa{
+    @include hover;
+}    
+.text{
+    @include text(43%);
+    background: black;
+    padding: 0px 10px;
+    color: white;
+}
+
+@media (min-width:575px)and (max-width: 990px){
+    .text{
+        @include text(30%);
+    }
+    .contenedor figure img{
+        @include image(130px);
+      }
+    .capa{
+        @include capa(130px !important);
+    }
+    .card{
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:100px)and (max-width: 415px){
+    .text{
+        @include text(20%);
+    }
+    .contenedor figure img{
+        @include image(75px);
+      }
+      .capa{
+        @include capa(75px !important);
+    }  
+}
+

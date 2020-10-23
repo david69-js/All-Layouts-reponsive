@@ -1,5 +1,10 @@
 @import '../../../mixins/colors';
 @import '../../../mixins/mixin';
+.card-text{
+    p{
+        text-align: -webkit-center;
+    }
+}
 
 .row{
     margin-left: 0px !important;
@@ -21,23 +26,70 @@
 .card{
     border: none;
     margin-left: -20px;
+    background: transparent;
 }
 
-@media screen and (max-width: 620px){
+@media (max-width: 800px){
     .big{
+        @include style2(230px);
+    }
+    .top{
+        @include style3(-60px );
+    }
+    .small{
+        @include style2(170px !important);
+    }
+    .bottom{
+        margin-bottom: 10px ;
+    }  
+    .bottom2{
+        margin-bottom: 10px ;
+    }
+    .card{
+        border: none !important;
+        margin-left: -20px ;
+    }
+    .row{
+        margin-left: 0px !important;
+    }
+}
+
+@media (min-width: 580px) and (max-width: 720px){
+    .big{
+        @include style2(200px );
+    }
+    .top{
+        @include style3(-30px );
+    }
+    .card{
+        border: none !important;
+        margin-left: -20px ;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 570px){
+    .big{
+        @include style2(200px !important );
+    }
+    .small{
         @include style2(200px !important);
     }
     .top{
         @include style3(0px !important);
     }
+
     .bottom{
-        margin-bottom: 10px !important;
+        margin-bottom: 10px ;
     }  
     .bottom2{
-        margin-bottom: 10px !important;
+        margin-bottom: 10px ;
     }
     .card{
         border: none !important;
         margin-left: 0px !important;
     }
+    .row{
+        margin-left: -15px !important;
+    }
 }
+

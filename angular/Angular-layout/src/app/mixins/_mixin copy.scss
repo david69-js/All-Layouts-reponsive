@@ -1,0 +1,38 @@
+@mixin container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin image ($height) {
+    width: 100%;
+    transition: all 500ms ease-out;
+    height: $height;
+}
+
+@mixin capa ($height){
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: $height;
+    background: rgba(38, 31, 31, 0.5);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+@mixin hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+@mixin text ($top:0%){
+    position: absolute;
+    top: $top;
+    left: 10px;
+}
+@mixin  color {
+    background: #eaeaea;
+}

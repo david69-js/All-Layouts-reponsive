@@ -1,0 +1,86 @@
+.card-text p {
+  text-align: -webkit-center;
+}
+
+.row {
+  margin-left: -15px !important;
+}
+
+.small {
+  height: 200px;
+}
+
+.big {
+  height: 410px;
+}
+
+.top {
+  margin-top: -211px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+}
+
+.card {
+  border: none;
+  margin-left: -20px;
+}
+
+@media (max-width: 800px) {
+  .big {
+    height: 230px;
+  }
+  .top {
+    margin-top: -60px;
+  }
+  .small {
+    height: 170px !important;
+  }
+  .bottom {
+    margin-bottom: 10px;
+  }
+  .bottom2 {
+    margin-bottom: 10px;
+  }
+  .card {
+    border: none !important;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 720px) {
+  .big {
+    height: 200px;
+  }
+  .top {
+    margin-top: -30px;
+  }
+  .card {
+    border: none !important;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 570px) {
+  .big {
+    height: 200px !important;
+  }
+  .small {
+    height: 200px !important;
+  }
+  .top {
+    margin-top: 0px !important;
+  }
+  .bottom {
+    margin-bottom: 10px;
+  }
+  .bottom2 {
+    margin-bottom: 10px;
+  }
+  .card {
+    border: none !important;
+    margin-left: 0px !important;
+  }
+}
+/*# sourceMappingURL=body3.component.css.map */

@@ -1,0 +1,17 @@
+@import '../../../mixins/mixin\ copy';
+textarea{
+    height: 215px;
+}
+
+.card{
+    background: transparent !important;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.spacing{
+    margin-top: 30px;
+}
+.container-fluid{
+    @include color;
+}

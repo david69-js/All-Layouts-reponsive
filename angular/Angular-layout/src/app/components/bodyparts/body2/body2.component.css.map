@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAA;ECFI,UAAU,ECDV,KAAK,CDCc,UAAU;EAC7B,MAAM,ECFN,KAAK,CDEW,UAAU;EAC1B,UAAU,EDCkB,KAAK;ECAjC,aAAa,EDAsB,KAAK,CCAjB,UAAU;EDCrC,KAAK,EEJD,KAAK;CFKZ;;AACD,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "body2.component.scss",
+        "../../../mixins/_mixin.scss",
+        "../../../mixins/_colors.scss"
+    ],
+    "names": [],
+    "file": "body2.component.css"
+}

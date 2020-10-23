@@ -1,0 +1,11 @@
+@import 'components/header';
+@import 'components/body';
+@import 'components/footer';
+.spacing{
+    a{
+        text-decoration: none !important;
+        color: black !important;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
