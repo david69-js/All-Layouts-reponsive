@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,wFAAI;AACZ,OAAO,CAAC,wEAAI;AACZ,OAAO,CAAC,uFAAI;AACZ,OAAO,CAAC,6EAAI;ADFZ,AAAA,gBAAgB,CAAA;EACZ,gBAAgB,EAAE,kDAAkD;CACvE;;AACD,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,cAAc;EAC1B,UAAU,EAAE,WAAW;CAC1B;;AAED,AAAA,QAAQ,CAAA;EACJ,UAAU,EAAE,WAAW;CAC1B;;AACD,AAAA,KAAK,CAAA;EACD,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,eAAe;EAC9B,cAAc,EAAE,eAAe;EAC/B,UAAU,EAAE,WAAW;EACvB,MAAM,EAAE,IAAI;CACf;;AACD,AAAA,KAAK,CAAA;EACD,WAAW,ECTP,MAAM,EAAE,KAAK;CDUpB",
     "sources": [
-        "body6.component.scss"
+        "body6.component.scss",
+        "../../../mixins/_colors.scss"
     ],
     "names": [],
     "file": "body6.component.css"

@@ -28,6 +28,17 @@
     margin-left: -20px;
     background: transparent;
 }
+.spacing{
+    @include style3(70px, 40px);
+    .card-title{
+        font-family: $font3;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    p{
+        font-family: $font4;
+    }
+}
 
 @media (max-width: 800px){
     .big{
@@ -69,10 +80,10 @@
 
 @media (min-width: 0px) and (max-width: 570px){
     .big{
-        @include style2(200px !important );
+        @include style2(280px !important );
     }
     .small{
-        @include style2(200px !important);
+        @include style2(280px !important);
     }
     .top{
         @include style3(0px !important);

@@ -1,23 +1,50 @@
 @import '../../../mixins/mixin\ copy';
+@import '../../../mixins/colors';
+
 .container-fluid{
     background: #eaeaea;
 }
 .bg{
     background: #eaeaea;
 }
+.single-card{
+    background: transparent;
+    border: none !important ;
+    box-shadow: 0 0 black !important ;
+    text-align: center;
+    .card-title{
+        font-family: $font3;
+        font-weight: bold;
+        
+    }
+}
+
 .card{
     border: none;
     box-shadow: 1px 1px 12px black;
     margin-bottom: 20px;
     margin-top: 30px;
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    .card-text{
+        font-family: $font4;
+        color: rgb(104, 104, 104);
+    }
+    .card-title{
+        font-family: $font3;
+        font-weight: bold;
+    }
+    .text-muted{
+        color: black !important;
+        font-size: 10px;
+    }
+
 }
 .cotenedor{
   @include container;
 }
 .contenedor figure{
-    cursor: pointer;
+    cursor: pointer; 
 }
 .contenedor figure img{
   @include image(200px);
@@ -31,7 +58,7 @@
 .contenedor figure:hover > .capa{
     @include hover;
 }    
-.text{
+.text1{
     @include text(43%);
     background: black;
     padding: 0px 10px;
@@ -39,30 +66,18 @@
 }
 
 @media (min-width:575px)and (max-width: 990px){
-    .text{
+    .text1{
         @include text(30%);
     }
     .contenedor figure img{
-        @include image(130px);
+        @include image(200px);
       }
     .capa{
-        @include capa(130px !important);
+        @include capa(200px !important);
     }
     .card{
         margin-bottom: 30px;
         margin-top: 40px;
     }
-}
-
-@media (min-width:100px)and (max-width: 415px){
-    .text{
-        @include text(20%);
-    }
-    .contenedor figure img{
-        @include image(75px);
-      }
-      .capa{
-        @include capa(75px !important);
-    }  
 }
 

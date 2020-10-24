@@ -1,8 +1,29 @@
 @import '../../../mixins/mixin';
+@import '../../../mixins/colors';
 
+h1{
+    @include text(black, 30px);
+    font-family: $font3;
+    font-weight: bold;
+}
+.text{
+    font-family: $font4;
+}
 .bg2{
-    @include style1(transparent,transparent,20px, 90px);
+    @include style1(transparent,transparent,0%, 90px);
 }
 .text{
     @include style2;
+}
+
+@media screen and (max-width: 985px){
+    .bg2{
+        @include style1(transparent,transparent,10%, 90px);
+    }
+}
+
+@media screen and (max-width: 370px){
+    .bg2{
+        @include style1(transparent,transparent,30%, 90px);
+    }
 }

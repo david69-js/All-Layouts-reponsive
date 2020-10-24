@@ -2,9 +2,17 @@
 @import '../../../mixins/colors';
 
 .bg2{
-    @include style1($black, $black, 100px, 100px);
+    background-image: url('../../../../assets/img/background/fondo.jpg');
     color: $white;
+    .row{
+        text-align: center;
+        .card{
+            @include style1(transparent,transparent, 100px, 50px)
+        }
+    }
 }
-.row{
-    text-align: center;
+@media screen and (max-width: 990px){
+    .card{
+        @include style1(transparent,transparent, 100px !important, 5px !important)
+    } 
 }

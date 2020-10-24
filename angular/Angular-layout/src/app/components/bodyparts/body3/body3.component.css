@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 .card-text p {
   text-align: -webkit-center;
 }
 
 .row {
-  margin-left: -15px !important;
+  margin-left: 0px !important;
 }
 
 .small {
@@ -16,6 +20,7 @@
 
 .top {
   margin-top: -211px;
+  margin-bottom: 0px;
 }
 
 .bottom {
@@ -25,6 +30,22 @@
 .card {
   border: none;
   margin-left: -20px;
+  background: transparent;
+}
+
+.spacing {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.spacing .card-title {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.spacing p {
+  font-family: "Raleway", sans-serif;
 }
 
 @media (max-width: 800px) {
@@ -33,6 +54,7 @@
   }
   .top {
     margin-top: -60px;
+    margin-bottom: 0px;
   }
   .small {
     height: 170px !important;
@@ -47,6 +69,9 @@
     border: none !important;
     margin-left: -20px;
   }
+  .row {
+    margin-left: 0px !important;
+  }
 }
 
 @media (min-width: 580px) and (max-width: 720px) {
@@ -55,6 +80,7 @@
   }
   .top {
     margin-top: -30px;
+    margin-bottom: 0px;
   }
   .card {
     border: none !important;
@@ -64,13 +90,14 @@
 
 @media (min-width: 0px) and (max-width: 570px) {
   .big {
-    height: 200px !important;
+    height: 280px !important;
   }
   .small {
-    height: 200px !important;
+    height: 280px !important;
   }
   .top {
     margin-top: 0px !important;
+    margin-bottom: 0px;
   }
   .bottom {
     margin-bottom: 10px;
@@ -81,6 +108,9 @@
   .card {
     border: none !important;
     margin-left: 0px !important;
+  }
+  .row {
+    margin-left: -15px !important;
   }
 }
 /*# sourceMappingURL=body3.component.css.map */

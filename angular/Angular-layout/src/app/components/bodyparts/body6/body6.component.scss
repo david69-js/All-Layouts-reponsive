@@ -1,5 +1,6 @@
+@import '../../../mixins/colors';
 .container-fluid{
-    background-image: url('../../../../assets/img/image2.jpg');
+    background-image: url('../../../../assets/img/background/fondo.jpg');
 }
 .row{
     text-align: -webkit-center;
@@ -15,4 +16,7 @@
     padding-bottom: 52px !important;
     background: transparent;
     border: none;
+}
+.text{
+    font-family: $font3;
 }

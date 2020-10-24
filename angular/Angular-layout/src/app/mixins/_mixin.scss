@@ -9,6 +9,11 @@
         height: $height;
 }
 
-@mixin style3($top:0px){
-        margin-top: $top;   
+@mixin style3($top:0px, $bottom: 0px){
+        margin-top: $top;
+        margin-bottom: $bottom;   
+}
+@mixin text ($color: white, $size: 30px){
+        color: $color;
+        font-size: $size;
 }

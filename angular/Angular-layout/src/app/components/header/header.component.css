@@ -1,14 +1,55 @@
 /*nav*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 .navbar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-/*Background*/
+.navbar-nav {
+  margin-top: -135px;
+}
+
+a {
+  color: white !important;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 10px;
+  color: white;
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+h4 {
+  font-family: "Staatliches", cursive;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.h1 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  color: white;
+  font-size: 35px;
+}
+
+.h2 {
+  color: white;
+  font-size: 42px;
+  font-family: "Great Vibes", cursive;
+}
+
 .spacing {
   padding: 0px 0px !important;
-  background-image: url("../../../assets/img/dos.jpg");
+  background-image: url("../../../assets/img/background/portada.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,5 +61,9 @@
   border: transparent !important;
   margin-top: 120px;
   margin-bottom: 0px !important;
+}
+
+.bg2 img {
+  width: 29px;
 }
 /*# sourceMappingURL=header.component.css.map */

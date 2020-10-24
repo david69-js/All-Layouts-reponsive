@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=footer.component.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+.container-fluid {
+  background-image: url("../../..//assets/img/background/fondo2.jpg");
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: auto;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+
+h2 {
+  color: white;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+p {
+  color: white;
+  font-family: "Staatliches", cursive;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li {
+  color: white;
+}
+
+.card a img {
+  height: 25px;
+  width: auto;
+  margin: 0px 5px;
+}
+
+.size {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.size .mb-2 {
+  margin-left: -5px;
+}
+
+.size .mb-2 img {
+  height: 60px;
+}
+
+.uno {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .card {
+    text-align: center !important;
+  }
+  .card .card-img-top {
+    height: 120px !important;
+  }
+}
+/*# sourceMappingURL=footer.component.css.map */
