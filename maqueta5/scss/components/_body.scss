@@ -3,6 +3,10 @@
 $gray: #ececec;
 $black: black;
 
+.margin{
+    margin: 0px;
+    padding: 0px;
+}
 h3{
     font-family: 'DM Serif Text', serif;
 }
@@ -30,8 +34,12 @@ h3{
     .card-text{
         font-size: 20px;
         color: $black;
+        text-align: justify;
         font-family: 'Pangolin', cursive;
         font-family: 'Pontano Sans', sans-serif;
+        span{
+            font-weight: bold;
+        }
     }
     .blockquote{
         font-family: 'DM Serif Text', serif;    
@@ -47,25 +55,10 @@ h3{
         margin: 40px 0px;
     }
 }
-textarea{
-    height: 110px !important;
-}
-.card-img{
-    border-radius: 50%;
-    width: 141px;
-    height: 147px;
-}
+
+
 .spacing{
     padding: 50px 0px;
-}
-.spacing2{
-    padding: 20px 0px;
-}
-
-.container{
-    .uno{
-        font-size: 10px;
-    }
 }
 
 @mixin spacing ($top:0px, $bottom:0px){
@@ -73,15 +66,6 @@ textarea{
     padding-bottom:$bottom;
 }
 
-.posts{
-    ul{
-        list-style: none;
-        li{
-            
-            float: right;
-        }
-    }
-}
 
 @media screen and (max-width: 630px){
     .spacing{

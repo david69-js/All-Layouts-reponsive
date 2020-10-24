@@ -27,6 +27,11 @@ h1 {
   font-size: 15px;
 }
 
+.margin {
+  margin: 0px;
+  padding: 0px;
+}
+
 h3 {
   font-family: 'DM Serif Text', serif;
 }
@@ -60,8 +65,13 @@ h3 {
 .card .card-text {
   font-size: 20px;
   color: black;
+  text-align: justify;
   font-family: 'Pangolin', cursive;
   font-family: 'Pontano Sans', sans-serif;
+}
+
+.card .card-text span {
+  font-weight: bold;
 }
 
 .card .blockquote {
@@ -77,34 +87,8 @@ h3 {
   margin: 40px 0px;
 }
 
-textarea {
-  height: 110px !important;
-}
-
-.card-img {
-  border-radius: 50%;
-  width: 141px;
-  height: 147px;
-}
-
 .spacing {
   padding: 50px 0px;
-}
-
-.spacing2 {
-  padding: 20px 0px;
-}
-
-.container .uno {
-  font-size: 10px;
-}
-
-.posts ul {
-  list-style: none;
-}
-
-.posts ul li {
-  float: right;
 }
 
 @media screen and (max-width: 630px) {
@@ -119,7 +103,7 @@ textarea {
   }
 }
 
-li {
+#footer li {
   list-style: none;
   float: left;
   letter-spacing: 15px;
@@ -129,12 +113,5 @@ li {
   ul {
     margin-left: 20px !important;
   }
-}
-
-.spacing a {
-  text-decoration: none !important;
-  color: black !important;
-  text-transform: uppercase;
-  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+#footer{
+    li{
+        list-style: none ;
+        float: left;
+        letter-spacing: 15px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 685px){
+ul{
+    margin-left: 20px !important;
+}
+}
